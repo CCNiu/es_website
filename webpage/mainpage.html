@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>成大工科系系學會</title>
+
+        <link rel="icon" type="image/x-icon" href="es_icon.png">
+
+        <style>
+            
+            * {
+                box-sizing: border-box;
+            } 
+
+
+            body{
+                background-color:rgb(255, 255, 255);
+                margin: 0;
+                padding: 10;
+            }
+
+            .header{
+                background-color: #f1f1f1;
+                padding: 30px;
+                text-align: center;
+            }
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+            
+            li {
+              float: left;
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            li a:hover {
+              background-color: #111;
+            }
+
+            .column{                                                        
+                float: left;
+                padding: 20px;
+                margin-bottom: 1%;
+                background-color: #f1f1f1;
+            }
+
+            .column.leftside{
+                float: left;
+                width: 25%;
+                margin-right: 2.5%;
+                margin-left: 2.5%;
+            }
+            .column.rightside{
+                margin-left: 2.5%;
+                margin-right: 2.5%;
+                width: 25%;
+            }
+            .column.middle{
+                width: 40%;
+                
+            }
+
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+
+            .footer {
+                padding: 20px;
+                text-align: center;
+                background: rgb(85, 33, 33);
+                margin-top: 20px;
+            }
+            </style>
+
+    </head>
+
+    <body>
+
+        <ul>
+            <li><a href="#es_introdruce">本系介紹</a></li>
+            <li><a href="#es_student">組織架構</a></li>
+            <li><a href="#es_activity">系上活動</a></li>
+            <li><a href="https://www.facebook.com/NCKUES.student" style="float: right">粉絲專頁</a></li>
+        </ul>
+        
+        <div class="row">
+
+            <div class="column leftside">
+                <h2>我是左側邊</h2>
+                <p>我是側邊內文</p>
+            </div>
+
+            <div class="column middle">
+                <h2>大家安安</h2>
+                <p>helloworld</p>
+            </div>
+
+            <div class="column rightside">
+                <h2>我是右側邊</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=c_74ab31qh0vf9fitq01qji81a4o%40group.calendar.google.com&ctz=Asia%2FTaipei" style="border: 0" width="400" height="400" frameborder="0" scrolling="no">
+                </iframe>
+            </div>
+
+        </div>
+
+        
+
+
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+
+    </body>
+
+</html>
